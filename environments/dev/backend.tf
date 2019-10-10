@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "build-demo-251418-tfstate"
+    bucket = "cloud-build-demo-251418-tfstate"
     prefix = "env/dev"
   }
 }
